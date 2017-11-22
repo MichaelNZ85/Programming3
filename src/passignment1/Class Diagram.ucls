@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="passignment1.DewPointCompare" project="PAssignment1" 
+    file="/PAssignment1/src/passignment1/DewPointCompare.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="174" x="700" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="2" language="java" name="passignment1.Fields" project="PAssignment1" 
+    file="/PAssignment1/src/passignment1/Fields.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="138" x="1426" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="3" language="java" name="passignment1.AirTempCompare" project="PAssignment1" 
+    file="/PAssignment1/src/passignment1/AirTempCompare.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="174" x="914" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="passignment1.AssignmentApp" project="PAssignment1" 
+    file="/PAssignment1/src/passignment1/AssignmentApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="114" x="1604" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="passignment1.WetBulbComparator" project="PAssignment1" 
+    file="/PAssignment1/src/passignment1/WetBulbComparator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="174" x="255" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="passignment1.RelativeHumidityCompare" project="PAssignment1" 
+    file="/PAssignment1/src/passignment1/RelativeHumidityCompare.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="174" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="passignment1.Weather" project="PAssignment1" 
+    file="/PAssignment1/src/passignment1/Weather.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="233" x="469" y="932"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="passignment1.Gui" project="PAssignment1" 
+    file="/PAssignment1/src/passignment1/Gui.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="855" width="191" x="469" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="passignment1.WeatherStation" project="PAssignment1" 
+    file="/PAssignment1/src/passignment1/WeatherStation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="258" x="1128" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="10">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="11" name="data"/>      
+      <multiplicity id="12" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
